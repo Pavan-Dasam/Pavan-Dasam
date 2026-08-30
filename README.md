@@ -274,18 +274,13 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" height="28" /> GitHub Analytics
 
 <div align="center">
-  <table border="0">
+  <table border="0" style="border-collapse: collapse; border: none;">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=pavan-2001-cpu&show_icons=true&theme=radical&bg_color=0d1117&title_color=a78bfa&text_color=e2e8f0&icon_color=c084fc&border_color=4c1d95&hide_border=false&count_private=true&include_all_commits=true" width="410" alt="GitHub Stats" />
+        <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/stats.svg" width="480" alt="GitHub Stats" />
       </td>
       <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=pavan-2001-cpu&theme=radical&background=0D1117&border=4C1D95&stroke=7C3AED&ring=A78BFA&fire=C084FC&currStreakNum=FFFFFF&sideNums=E2E8F0&currStreakLabel=A78BFA&sideLabels=E2E8F0&dates=94A3B8" width="410" alt="Streak Stats" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavan-2001-cpu&layout=compact&theme=radical&bg_color=0d1117&title_color=a78bfa&text_color=e2e8f0&border_color=4c1d95&hide_border=false&langs_count=8" width="550" alt="Top Languages" />
+        <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/languages.svg" width="480" alt="Top Languages" />
       </td>
     </tr>
   </table>
@@ -296,9 +291,7 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png" width="28" height="28" /> GitHub Trophies
 
 <div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=pavan-2001-cpu&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1&column=7" alt="GitHub Trophies" />
-  </a>
+  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/trophies.svg" width="100%" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -306,7 +299,7 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="28" height="28" /> Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pavan-2001-cpu&theme=react-dark&bg_color=0D1117&color=7C3AED&line=A78BFA&point=C084FC&area=true&area_color=4C1D95&hide_border=false&border_color=4C1D95" width="100%" alt="Activity Graph" />
+  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/activity.svg" width="100%" alt="Activity Graph" />
 </div>
 
 ---
@@ -314,7 +307,7 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="28" height="28" /> Contribution Snake
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
+  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/snake.svg" width="100%" alt="Contribution Snake Animation" />
 </div>
 
 ---

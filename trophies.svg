@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="135" viewBox="0 0 990 135" fill="none">
+  <defs>
+    <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="tBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <!-- Trophy 1 -->
+    <g transform="translate(10, 5)">
+      <rect width="180" height="120" rx="12" fill="url(#tBg)" stroke="url(#tBorder)" stroke-width="1.2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="28">🏆</text>
+      <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="bold" fill="#FBBF24">Multi-Agent Architect</text>
+      <text x="90" y="88" text-anchor="middle" font-family="monospace" font-size="10" fill="#94A3B8">LangGraph Master</text>
+      <text x="90" y="105" text-anchor="middle" font-family="monospace" font-size="9" fill="#38BDF8">GRADE: SSS</text>
+    </g>
+
+    <!-- Trophy 2 -->
+    <g transform="translate(205, 5)">
+      <rect width="180" height="120" rx="12" fill="url(#tBg)" stroke="url(#tBorder)" stroke-width="1.2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="28">🧠</text>
+      <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="bold" fill="#C084FC">GenAI Specialist</text>
+      <text x="90" y="88" text-anchor="middle" font-family="monospace" font-size="10" fill="#94A3B8">Databricks Certified</text>
+      <text x="90" y="105" text-anchor="middle" font-family="monospace" font-size="9" fill="#38BDF8">GRADE: GOLD</text>
+    </g>
+
+    <!-- Trophy 3 -->
+    <g transform="translate(400, 5)">
+      <rect width="180" height="120" rx="12" fill="url(#tBg)" stroke="url(#tBorder)" stroke-width="1.2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="28">⚡</text>
+      <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="bold" fill="#22D3EE">Production RAG</text>
+      <text x="90" y="88" text-anchor="middle" font-family="monospace" font-size="10" fill="#94A3B8">Azure AI Search</text>
+      <text x="90" y="105" text-anchor="middle" font-family="monospace" font-size="9" fill="#38BDF8">GRADE: GOLD</text>
+    </g>
+
+    <!-- Trophy 4 -->
+    <g transform="translate(595, 5)">
+      <rect width="180" height="120" rx="12" fill="url(#tBg)" stroke="url(#tBorder)" stroke-width="1.2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="28">⚙️</text>
+      <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="bold" fill="#10B981">Backend Core</text>
+      <text x="90" y="88" text-anchor="middle" font-family="monospace" font-size="10" fill="#94A3B8">Spring Boot &amp; Python</text>
+      <text x="90" y="105" text-anchor="middle" font-family="monospace" font-size="9" fill="#38BDF8">GRADE: PLATINUM</text>
+    </g>
+
+    <!-- Trophy 5 -->
+    <g transform="translate(790, 5)">
+      <rect width="180" height="120" rx="12" fill="url(#tBg)" stroke="url(#tBorder)" stroke-width="1.2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="28">📜</text>
+      <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="bold" fill="#F43F5E">500+ Algorithms</text>
+      <text x="90" y="88" text-anchor="middle" font-family="monospace" font-size="10" fill="#94A3B8">LeetCode &amp; GFG</text>
+      <text x="90" y="105" text-anchor="middle" font-family="monospace" font-size="9" fill="#38BDF8">GRADE: DIAMOND</text>
+    </g>
+  </g>
+</svg>
