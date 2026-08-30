@@ -13,7 +13,7 @@
   </p>
 
   <p align="center">
-    <a href="https://Pavan-Dasam.github.io/Pavan-Dasam/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00F0FF&labelColor=1E1B4B" alt="Portfolio" /></a>
+    <a href="https://pavan-dasam.github.io/pavan-portfolio-/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00F0FF&labelColor=1E1B4B" alt="Portfolio" /></a>
     <a href="https://www.linkedin.com/in/pavan-kumar-dasam-2574893b9/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF&labelColor=1E1B4B" alt="LinkedIn" /></a>
     <a href="mailto:pavanwork2113@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00F0FF&labelColor=1E1B4B" alt="Email" /></a>
     <a href="https://github.com/Pavan-Dasam"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=1E1B4B" alt="GitHub" /></a>
@@ -360,7 +360,7 @@ Current_Focus:
   <a href="https://github.com/Pavan-Dasam">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://Pavan-Dasam.github.io/Pavan-Dasam/">
+  <a href="https://pavan-dasam.github.io/pavan-portfolio-/">
     <img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
 </div>
@@ -371,3 +371,4 @@ Current_Focus:
   <p><em>"Simplicity is prerequisite for reliability. Engineering excellence lies in mastering trade-offs."</em></p>
   <img src="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/footer.svg" width="100%" alt="Footer Banner" />
 </div>
+
