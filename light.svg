@@ -1,80 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
 <defs>
-  <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#00F0FF">
-      <animate attributeName="stop-color" values="#00F0FF;#A855F7;#38BDF8;#00F0FF" dur="8s" repeatCount="indefinite"/>
+  <linearGradient id="asciiGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0284C7">
+      <animate attributeName="stop-color" values="#0284C7;#7C3AED;#0284C7" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="50%" stop-color="#38BDF8">
-      <animate attributeName="stop-color" values="#38BDF8;#00F0FF;#A855F7;#38BDF8" dur="8s" repeatCount="indefinite"/>
-    </stop>
-    <stop offset="100%" stop-color="#C084FC">
-      <animate attributeName="stop-color" values="#C084FC;#38BDF8;#00F0FF;#C084FC" dur="8s" repeatCount="indefinite"/>
+    <stop offset="100%" stop-color="#7C3AED">
+      <animate attributeName="stop-color" values="#7C3AED;#0284C7;#7C3AED" dur="8s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
-  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#A855F7"/>
-    <stop offset="50%" stop-color="#00F0FF"/>
-    <stop offset="100%" stop-color="#34D399"/>
+  <linearGradient id="borderGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#0284C7"/>
+    <stop offset="100%" stop-color="#059669"/>
   </linearGradient>
-  <radialGradient id="bgGlow" cx="40%" cy="25%" r="85%">
-    <stop offset="0%" stop-color="#0D192E"/>
-    <stop offset="50%" stop-color="#09101F"/>
-    <stop offset="100%" stop-color="#040711"/>
+  <radialGradient id="bgGlowL" cx="40%" cy="20%" r="80%">
+    <stop offset="0%" stop-color="#F8FAFC"/>
+    <stop offset="100%" stop-color="#E2E8F0"/>
   </radialGradient>
-  <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" stop-color="#00F0FF" stop-opacity="0"/>
-    <stop offset="45%" stop-color="#00F0FF" stop-opacity="0.08"/>
-    <stop offset="50%" stop-color="#E0F2FE" stop-opacity="0.85"/>
-    <stop offset="55%" stop-color="#00F0FF" stop-opacity="0.08"/>
-    <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
-  </linearGradient>
-  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-    <rect width="4" height="1" fill="#38BDF8" opacity="0.06"/>
-  </pattern>
-  <mask id="revealMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1180" height="620">
+  <mask id="revealMaskL" maskUnits="userSpaceOnUse" x="0" y="0" width="1180" height="620">
     <rect x="0" y="0" width="1180" height="0" fill="#fff">
       <animate attributeName="height" from="0" to="560" dur="2.4s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
     </rect>
   </mask>
   <clipPath id="lc0"><rect x="500" y="26.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.75s" fill="freeze"/></rect></clipPath><clipPath id="lc1"><rect x="500" y="48.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.86s" fill="freeze"/></rect></clipPath><clipPath id="lc2"><rect x="500" y="70.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.97s" fill="freeze"/></rect></clipPath><clipPath id="lc3"><rect x="500" y="92.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.08s" fill="freeze"/></rect></clipPath><clipPath id="lc4"><rect x="500" y="114.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.19s" fill="freeze"/></rect></clipPath><clipPath id="lc5"><rect x="500" y="136.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.30s" fill="freeze"/></rect></clipPath><clipPath id="lc6"><rect x="500" y="158.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.41s" fill="freeze"/></rect></clipPath><clipPath id="lc7"><rect x="500" y="180.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.52s" fill="freeze"/></rect></clipPath><clipPath id="lc8"><rect x="500" y="202.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.63s" fill="freeze"/></rect></clipPath><clipPath id="lc9"><rect x="500" y="224.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.74s" fill="freeze"/></rect></clipPath><clipPath id="lc10"><rect x="500" y="246.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.85s" fill="freeze"/></rect></clipPath><clipPath id="lc11"><rect x="500" y="268.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.96s" fill="freeze"/></rect></clipPath><clipPath id="lc12"><rect x="500" y="290.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.07s" fill="freeze"/></rect></clipPath><clipPath id="lc13"><rect x="500" y="312.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.18s" fill="freeze"/></rect></clipPath><clipPath id="lc14"><rect x="500" y="334.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.29s" fill="freeze"/></rect></clipPath><clipPath id="lc15"><rect x="500" y="356.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.40s" fill="freeze"/></rect></clipPath><clipPath id="lc16"><rect x="500" y="378.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.51s" fill="freeze"/></rect></clipPath><clipPath id="lc17"><rect x="500" y="400.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.62s" fill="freeze"/></rect></clipPath><clipPath id="lc18"><rect x="500" y="422.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.73s" fill="freeze"/></rect></clipPath><clipPath id="lc19"><rect x="500" y="444.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.84s" fill="freeze"/></rect></clipPath><clipPath id="lc20"><rect x="500" y="466.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.95s" fill="freeze"/></rect></clipPath><clipPath id="lc21"><rect x="500" y="488.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.06s" fill="freeze"/></rect></clipPath><clipPath id="lc22"><rect x="500" y="510.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.17s" fill="freeze"/></rect></clipPath>
   <style>
-    .ascii  { font-family: 'Courier New', Consolas, monospace; font-size: 7.5px; fill: url(#asciiGrad); font-weight: bold; letter-spacing: -0.1px; }
-    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #00F0FF; font-weight: bold; }
-    .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #F8FAFC; }
-    .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #64748B; }
-    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #C084FC; font-weight: bold; }
-    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #34D399; font-weight: bold; }
+    .ascii  { font-family: 'Courier New', Consolas, monospace; font-size: 7.5px; fill: url(#asciiGradL); font-weight: bold; letter-spacing: -0.1px; }
+    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #0284C7; font-weight: bold; }
+    .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #0F172A; }
+    .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #94A3B8; }
+    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #7C3AED; font-weight: bold; }
+    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #059669; font-weight: bold; }
     text, tspan { white-space: pre; }
     
-    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #94A3B8; letter-spacing: 0.5px; }
-    .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #34D399; font-weight: bold; letter-spacing: 1px; }
-    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #00F0FF; font-weight: bold; letter-spacing: 2px; }
-    .cursor-blink { fill: #00F0FF; }
+    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #475569; letter-spacing: 0.5px; }
+    .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #059669; font-weight: bold; letter-spacing: 1px; }
+    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #0284C7; font-weight: bold; letter-spacing: 2px; }
+    .cursor-blink { fill: #0284C7; }
   </style>
 </defs>
 
-<rect width="1180" height="610" rx="18" fill="url(#bgGlow)"/>
-<rect width="1180" height="610" rx="18" fill="url(#scanlines)"/>
+<rect width="1180" height="610" rx="18" fill="url(#bgGlowL)"/>
 
 <g id="titlebar">
-  <rect x="3" y="3" width="1174" height="34" rx="16" fill="#0F172A" fill-opacity="0.95"/>
-  <circle cx="24" cy="20" r="5" fill="#EF4444"><animate attributeName="opacity" values="1;0.55;1" dur="3s" repeatCount="indefinite"/></circle>
-  <circle cx="42" cy="20" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="3s" begin="0.3s" repeatCount="indefinite"/></circle>
-  <circle cx="60" cy="20" r="5" fill="#10B981"><animate attributeName="opacity" values="1;0.55;1" dur="3s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <rect x="3" y="3" width="1174" height="34" rx="16" fill="#FFFFFF" fill-opacity="0.95"/>
+  <circle cx="24" cy="20" r="5" fill="#EF4444"/>
+  <circle cx="42" cy="20" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="20" r="5" fill="#10B981"/>
   <text x="590" y="25" text-anchor="middle" class="term-label">pavan@devos ~ % ./profile.sh --live</text>
-  <circle cx="1122" cy="20" r="4" fill="#34D399">
+  <circle cx="1122" cy="20" r="4" fill="#059669">
     <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
   </circle>
   <text x="1132" y="24" class="scan-label">ONLINE</text>
 </g>
 
 <g transform="translate(0,38)">
-  <rect x="14" y="26" width="488" height="468" rx="14" fill="#0B132B" fill-opacity="0.65" stroke="url(#borderGrad)" stroke-width="1.2"/>
-  <rect x="508" y="10" width="655" height="500" rx="14" fill="#0B132B" fill-opacity="0.65" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="14" y="26" width="488" height="468" rx="14" fill="#FFFFFF" fill-opacity="0.8" stroke="url(#borderGradL)" stroke-width="1.2"/>
+  <rect x="508" y="10" width="655" height="500" rx="14" fill="#FFFFFF" fill-opacity="0.8" stroke="url(#borderGradL)" stroke-width="1.2"/>
   <text x="30" y="24" class="panel-title">VISUAL.MAP</text>
   <text x="524" y="24" class="panel-title">SYSTEM.INFO</text>
 
-  <g mask="url(#revealMask)">
+  <g mask="url(#revealMaskL)">
   <text x="30" y="0" class="ascii">
 <tspan x="30" y="79.98" xml:space="preserve">                                +++++++++++++++++++++++++                               </tspan>
 <tspan x="30" y="87.52" xml:space="preserve">                                :::::::::::::::..........                               </tspan>
@@ -134,39 +119,33 @@
   </text>
   </g>
 
-  <g clip-path="url(#lc0)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="head">pavan@devos</tspan><tspan class="cc"> -——————————————————————————————————————————-—-</tspan></text></g>
-  <g clip-path="url(#lc1)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="66" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: .......................... </tspan><tspan class="value">Pavan Dasam</tspan></text></g>
-  <g clip-path="url(#lc2)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="88" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: ............................. </tspan><tspan class="value">AI Engineer · GenAI &amp; Agentic Architect</tspan></text></g>
-  <g clip-path="url(#lc3)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="110" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc">: ........................... </tspan><tspan class="value">Andhra Pradesh, India</tspan></text></g>
-  <g clip-path="url(#lc4)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="132" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ......................... </tspan><tspan class="value">B.Tech Computer Science, JNTUK</tspan></text></g>
-  <g clip-path="url(#lc5)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="154" class="cc">. </tspan><tspan class="key">Experience</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">3+ Years (Fin &amp; Health Insurance)</tspan></text></g>
-  <g clip-path="url(#lc6)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="176" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ............ </tspan><tspan class="value">Building • Learning • Shipping</tspan></text></g>
-  <g clip-path="url(#lc7)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="198" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc">: ................. </tspan><tspan class="value">VS Code, Git, Docker, LangSmith, Postman</tspan></text></g>
-  <g clip-path="url(#lc8)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="220" class="cc">. </tspan></text></g>
-  <g clip-path="url(#lc9)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Lang</tspan><tspan class="cc">: .......... </tspan><tspan class="value">Python, Java, TypeScript, C++, Bash</tspan></text></g>
-  <g clip-path="url(#lc10)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="264" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Agentic AI</tspan><tspan class="cc">: .... </tspan><tspan class="value">LangGraph, LangChain, Multi-Agent Swarms</tspan></text></g>
-  <g clip-path="url(#lc11)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="286" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">RAG &amp; Search</tspan><tspan class="cc">: .. </tspan><tspan class="value">Azure AI Search, ChromaDB, Qdrant</tspan></text></g>
-  <g clip-path="url(#lc12)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="308" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Backend</tspan><tspan class="cc">: ....... </tspan><tspan class="value">FastAPI (Async), Spring Boot (Java 17)</tspan></text></g>
-  <g clip-path="url(#lc13)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="330" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Databases</tspan><tspan class="cc">: ..... </tspan><tspan class="value">PostgreSQL, MongoDB, Redis, MySQL</tspan></text></g>
-  <g clip-path="url(#lc14)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="352" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Infra</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Docker, Kubernetes, Azure, AWS, CI/CD</tspan></text></g>
-  <g clip-path="url(#lc15)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="374" class="accent">- Contact</tspan><tspan class="cc"> -————————————————————————————————————————————-—-</tspan></text></g>
-  <g clip-path="url(#lc16)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="396" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Mail</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">pavanwork2113@gmail.com</tspan></text></g>
-  <g clip-path="url(#lc17)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="418" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................... </tspan><tspan class="value">in/pavan-kumar-dasam-2574893b9</tspan></text></g>
-  <g clip-path="url(#lc18)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="440" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Portfolio</tspan><tspan class="cc">: .................. </tspan><tspan class="value">PD_Portfolio</tspan></text></g>
-  <g clip-path="url(#lc19)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="462" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Github</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">pavan-2001-cpu</tspan></text></g>
-  <g clip-path="url(#lc20)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="484" class="accent">- Live Stats</tspan><tspan class="cc"> -————————————————————————————————————————————-—-</tspan></text></g>
-  <g clip-path="url(#lc21)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="506" class="cc">. </tspan><tspan class="value">See live GitHub stats badges below in README ↓</tspan></text></g>
+  <g clip-path="url(#lc0)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="42" class="head">pavan@devos</tspan><tspan class="cc"> -——————————————————————————————————————————-—-</tspan></text></g>
+  <g clip-path="url(#lc1)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="66" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: .......................... </tspan><tspan class="value">Pavan Dasam</tspan></text></g>
+  <g clip-path="url(#lc2)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="88" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: ............................. </tspan><tspan class="value">AI Engineer · GenAI &amp; Agentic Architect</tspan></text></g>
+  <g clip-path="url(#lc3)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="110" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc">: ........................... </tspan><tspan class="value">Andhra Pradesh, India</tspan></text></g>
+  <g clip-path="url(#lc4)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="132" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ......................... </tspan><tspan class="value">B.Tech Computer Science, JNTUK</tspan></text></g>
+  <g clip-path="url(#lc5)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="154" class="cc">. </tspan><tspan class="key">Experience</tspan><tspan class="cc">: ........................ </tspan><tspan class="value">3+ Years (Fin &amp; Health Insurance)</tspan></text></g>
+  <g clip-path="url(#lc6)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="176" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ............ </tspan><tspan class="value">Building • Learning • Shipping</tspan></text></g>
+  <g clip-path="url(#lc7)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="198" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc">: ................. </tspan><tspan class="value">VS Code, Git, Docker, LangSmith, Postman</tspan></text></g>
+  <g clip-path="url(#lc8)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="220" class="cc">. </tspan></text></g>
+  <g clip-path="url(#lc9)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Lang</tspan><tspan class="cc">: .......... </tspan><tspan class="value">Python, Java, TypeScript, C++, Bash</tspan></text></g>
+  <g clip-path="url(#lc10)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="264" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Agentic AI</tspan><tspan class="cc">: .... </tspan><tspan class="value">LangGraph, LangChain, Multi-Agent Swarms</tspan></text></g>
+  <g clip-path="url(#lc11)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="286" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">RAG &amp; Search</tspan><tspan class="cc">: .. </tspan><tspan class="value">Azure AI Search, ChromaDB, Qdrant</tspan></text></g>
+  <g clip-path="url(#lc12)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="308" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Backend</tspan><tspan class="cc">: ....... </tspan><tspan class="value">FastAPI (Async), Spring Boot (Java 17)</tspan></text></g>
+  <g clip-path="url(#lc13)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="330" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Databases</tspan><tspan class="cc">: ..... </tspan><tspan class="value">PostgreSQL, MongoDB, Redis, MySQL</tspan></text></g>
+  <g clip-path="url(#lc14)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="352" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Infra</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Docker, Kubernetes, Azure, AWS, CI/CD</tspan></text></g>
+  <g clip-path="url(#lc15)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="374" class="accent">- Contact</tspan><tspan class="cc"> -————————————————————————————————————————————-—-</tspan></text></g>
+  <g clip-path="url(#lc16)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="396" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Mail</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">pavanwork2113@gmail.com</tspan></text></g>
+  <g clip-path="url(#lc17)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="418" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................... </tspan><tspan class="value">in/pavan-kumar-dasam-2574893b9</tspan></text></g>
+  <g clip-path="url(#lc18)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="440" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Portfolio</tspan><tspan class="cc">: .................. </tspan><tspan class="value">PD_Portfolio</tspan></text></g>
+  <g clip-path="url(#lc19)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="462" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Github</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">pavan-2001-cpu</tspan></text></g>
+  <g clip-path="url(#lc20)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="484" class="accent">- Live Stats</tspan><tspan class="cc"> -————————————————————————————————————————————-—-</tspan></text></g>
+  <g clip-path="url(#lc21)"><text x="520" y="0" fill="#0f172a"><tspan x="520" y="506" class="cc">. </tspan><tspan class="value">See live GitHub stats badges below in README ↓</tspan></text></g>
 
   <rect x="522" y="491.0" width="9" height="16" class="cursor-blink" opacity="0">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="3.66s" repeatCount="indefinite"/>
   </rect>
 </g>
 
-<rect x="0" y="-70" width="1180" height="70" fill="url(#scanGrad)" opacity="0.8" style="mix-blend-mode:screen">
-  <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 680" dur="4s" repeatCount="indefinite"/>
-</rect>
-
-<rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.9">
-  <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
-</rect>
+<rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#borderGradL)" stroke-width="2" opacity="0.8"/>
 </svg>
