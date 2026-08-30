@@ -29,11 +29,41 @@
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="28" height="28" /> About Me
 
-I am an **AI Engineer & Systems Architect** with 3+ years of specialized experience designing, building, and deploying enterprise Generative AI solutions, LLM assistants, and multi-step agentic workflows across the **Financial Insurance** and **Health Insurance** domains.
+```yaml
+pavan@devos:~$ ./profile.sh --live
+┌── SYSTEM.INFO ────────────────────────────────────────────────────────────────────────┐
+. Subject: .......................... Pavan Dasam (Pavan Kumar Dasam)
+. Role: ............................. AI Engineer · GenAI & Agentic Systems Architect
+. Experience: ....................... 3+ Years in Production AI & Enterprise Platforms
+. Domains: .......................... Financial Insurance · Health Insurance
+. Origin: ........................... Andhra Pradesh, India
+. Education: ........................ B.Tech Computer Science & Engineering (JNTUK)
+. Status: ........................... Building ⚡ Learning 🚀 Shipping Enterprise Systems
+. ToolChain: ........................ VS Code, Git, Docker, LangSmith, Postman, Linux
+.
+. Core.Lang: ........................ Python, Java, JavaScript, TypeScript, C++, Bash
+. Core.Agentic AI: .................. LangGraph (Stateful Graphs), LangChain, Multi-Agent Swarms
+. Core.RAG & Search: ................ Azure AI Search, ChromaDB, Qdrant, Pinecone, Hybrid Search
+. Core.Backend: ..................... FastAPI (Async), Spring Boot (Java 17), REST Microservices
+. Core.Databases: ................... PostgreSQL, Redis, MongoDB, MySQL
+. Core.DevOps & Cloud: .............. Docker, Kubernetes, Azure, AWS, CI/CD Pipelines
+.
+- Focus & Production Scope --------------------------------------------------------------
+. Stateful Agents: .................. Cyclic Multi-Agent graphs with Human-in-the-Loop (HITL)
+. Document Intelligence: ............ Enterprise OCR pipelines, recursive chunking & grounding
+. Responsible AI: ................... RAGAS evaluations, strict PII redaction, prompt security
+.
+- Grid.Connect -------------------------------------------------------------------------
+. Grid.Mail: ........................ pavanwork2113@gmail.com
+. Grid.LinkedIn: .................... in/pavan-kumar-dasam-2574893b9
+. Grid.Portfolio: .................. PD_Portfolio
+. Grid.GitHub: ...................... pavan-2001-cpu
+└───────────────────────────────────────────────────────────────────────────────────────┘
+```
 
-My engineering background spans production-grade **LangGraph** multi-agent architectures, advanced **Retrieval-Augmented Generation (RAG)** systems, and robust backend engineering with **Python (FastAPI)** and **Java (Spring Boot)**. I bridge applied machine learning with enterprise software standards, translating complex regulatory and compliance requirements into 100% grounded, auditable, and human-in-the-loop AI systems.
+> **AI Engineer & Systems Architect** specializing in architecting, building, and deploying enterprise **Generative AI**, **LangGraph Multi-Agent Workflows**, and high-throughput **RAG Architectures** across regulated financial and health insurance systems. Bridging cutting-edge LLMs with rock-solid Python (FastAPI) and Java (Spring Boot) enterprise backend foundations.
 
-- ⚙️ **Software Engineering Foundation:** Core microservices development, high-throughput REST APIs, SQL database optimization, concurrency, and automated CI/CD pipelines.
+- ⚙️ **Software Engineering Foundation:** Enterprise microservices development, high-throughput REST APIs, SQL database optimization, concurrency, and automated CI/CD pipelines.
 - 🧠 **Agentic AI & GenAI Systems:** State-managed cyclic graphs via LangGraph, conditional routing, tool calling, OCR document extraction, embeddings, vector databases, and LLM-as-a-judge evaluation frameworks.
 - 🛡️ **Grounded & Responsible AI:** RAGAS evaluation, strict prompt injection defenses, automated PII filtering, citation validation, and Human-in-the-Loop (HITL) escalation checkpoints.
 - 🎯 **Open To:** Senior AI Engineer roles, GenAI Systems Architect positions, Multi-Agent & RAG Infrastructure projects, and Enterprise Consulting.
