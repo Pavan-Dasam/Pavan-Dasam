@@ -1,5 +1,5 @@
 ﻿<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_colors=1e1b4b,4c1d95,7c3aed,c084fc&height=220&section=header&text=Pavan%20Dasam&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=AI%20Engineer%20%7C%20Generative%20AI%20%26%20Agentic%20Systems%20Architect&descFontSize=17&descAlignY=60&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/header.svg" width="100%" alt="Pavan Dasam Header Banner" />
 
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&width=650&height=50&lines=Enterprise+Generative+AI+%26+Agentic+Workflows;Stateful+Multi-Agent+Systems+via+LangGraph;Production+RAG+Architectures+%26+High-Speed+APIs;Full+Stack+Engineering+%7C+Python+%26+Java+Backends" alt="Typing SVG" />
@@ -360,5 +360,5 @@ Current_Focus:
 
 <div align="center">
   <p><em>"Simplicity is prerequisite for reliability. Engineering excellence lies in mastering trade-offs."</em></p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_colors=c084fc,7c3aed,4c1d95,1e1b4b&height=120&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/footer.svg" width="100%" alt="Footer Banner" />
 </div>
