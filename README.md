@@ -221,12 +221,13 @@
 
 <div align="center">
 
-| Recognition & Honor | Issuing Authority / Details |
+| Recognition & Honor | Issuing Authority / Credential Details |
 | :--- | :--- |
-| 🥇 **Databricks Certified Generative AI Engineer** | Industry-standard credential in foundational LLM architectures, fine-tuning, and GenAI production systems |
-| 🎖️ **Official LangChain & LangGraph Certified** | Validated mastery in stateful multi-agent systems, cyclic graphs, persistence, and enterprise RAG |
-| 🏆 **Enterprise AI Production Deployment** | Successfully deployed multi-agent decision systems across highly regulated financial & health insurance domains |
-| 📜 **500+ Algorithmic Problems Solved** | Strong analytical problem-solving foundation across competitive coding and systems engineering platforms |
+| 🎖️ **LangChain Academy — Introduction to LangChain (Python)** | **Issued:** 2026-07-21 · **Valid Thru:** 2028-07-20 · **ID:** `ctddbhm9sf` |
+| 🏆 **LangChain Academy — Introduction to LangGraph (Python)** | **Issued:** 2026-07-31 · **Valid Thru:** 2028-07-30 · **ID:** `9ucdiusaz6` |
+| 🥇 **Databricks Certified Generative AI Engineer** | Validated expertise in foundational LLM architectures, fine-tuning, and GenAI production systems |
+| 🛡️ **Enterprise AI Production Deployment** | Deployed multi-agent decision systems across regulated financial & health insurance domains |
+| 📜 **500+ Algorithmic Problems Solved** | Strong analytical problem-solving foundation across competitive coding and systems engineering |
 
 </div>
 
@@ -236,15 +237,22 @@
 
 <div align="center">
 
-#### AI & Generative AI Engineering
+#### LangChain & Agentic AI Credentials (LangChain Academy)
 <p align="center">
-  <img src="https://img.shields.io/badge/Databricks-Generative%20AI%20Engineer%20Certified-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks Generative AI Engineer" />
-  <img src="https://img.shields.io/badge/LangChain-Official%20Developer%20Certified-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain Certification" />
-  <img src="https://img.shields.io/badge/LangGraph-Stateful%20Agentic%20AI%20Certified-1E1B4B?style=for-the-badge&logo=diagram-next&logoColor=A78BFA" alt="LangGraph Certification" />
+  <img src="https://img.shields.io/badge/LangChain%20Academy-Introduction%20to%20LangChain%20(Python)-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=00F0FF" alt="LangChain Academy Certificate" />
+  <img src="https://img.shields.io/badge/LangChain%20Academy-Introduction%20to%20LangGraph%20(Python)-1E1B4B?style=for-the-badge&logo=diagram-next&logoColor=A78BFA" alt="LangGraph Academy Certificate" />
 </p>
 
-#### Cloud, Systems & Databases
+| Certification | Issuing Organization | Issue Date | Expiration Date | Credential ID |
+| :--- | :--- | :--- | :--- | :--- |
+| **Foundation: Introduction to LangChain - Python** | **LangChain Academy** | `2026-07-21` | `2028-07-20` | `ctddbhm9sf` |
+| **Foundation: Introduction to LangGraph - Python** | **LangChain Academy** | `2026-07-31` | `2028-07-30` | `9ucdiusaz6` |
+
+<br>
+
+#### AI, Cloud & Systems Credentials
 <p align="center">
+  <img src="https://img.shields.io/badge/Databricks-Generative%20AI%20Engineer%20Certified-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks Generative AI Engineer" />
   <img src="https://img.shields.io/badge/AWS-Certified%20Cloud%20Practitioner-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="AWS Cloud" />
   <img src="https://img.shields.io/badge/Oracle-Java%20%26%20SQL%20Certified%20Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Java" />
   <img src="https://img.shields.io/badge/Cisco-Networking%20%26%20Routing%20Certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
