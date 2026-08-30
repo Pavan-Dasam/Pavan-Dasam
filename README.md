@@ -29,37 +29,11 @@
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="28" height="28" /> About Me
 
-```yaml
-pavan@devos:~$ ./profile.sh --live
-┌── SYSTEM.INFO ────────────────────────────────────────────────────────────────────────┐
-. Subject: .......................... Pavan Dasam (Pavan Kumar Dasam)
-. Role: ............................. AI Engineer · GenAI & Agentic Systems Architect
-. Experience: ....................... 3+ Years in Production AI & Enterprise Platforms
-. Domains: .......................... Financial Insurance · Health Insurance
-. Origin: ........................... Andhra Pradesh, India
-. Education: ........................ B.Tech Computer Science & Engineering (JNTUK)
-. Status: ........................... Building ⚡ Learning 🚀 Shipping Enterprise Systems
-. ToolChain: ........................ VS Code, Git, Docker, LangSmith, Postman, Linux
-.
-. Core.Lang: ........................ Python, Java, JavaScript, TypeScript, C++, Bash
-. Core.Agentic AI: .................. LangGraph (Stateful Graphs), LangChain, Multi-Agent Swarms
-. Core.RAG & Search: ................ Azure AI Search, ChromaDB, Qdrant, Pinecone, Hybrid Search
-. Core.Backend: ..................... FastAPI (Async), Spring Boot (Java 17), REST Microservices
-. Core.Databases: ................... PostgreSQL, Redis, MongoDB, MySQL
-. Core.DevOps & Cloud: .............. Docker, Kubernetes, Azure, AWS, CI/CD Pipelines
-.
-- Focus & Production Scope --------------------------------------------------------------
-. Stateful Agents: .................. Cyclic Multi-Agent graphs with Human-in-the-Loop (HITL)
-. Document Intelligence: ............ Enterprise OCR pipelines, recursive chunking & grounding
-. Responsible AI: ................... RAGAS evaluations, strict PII redaction, prompt security
-.
-- Grid.Connect -------------------------------------------------------------------------
-. Grid.Mail: ........................ pavanwork2113@gmail.com
-. Grid.LinkedIn: .................... in/pavan-kumar-dasam-2574893b9
-. Grid.Portfolio: .................. PD_Portfolio
-. Grid.GitHub: ...................... pavan-2001-cpu
-└───────────────────────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/dark.svg" width="100%" alt="VISUAL.MAP & SYSTEM.INFO" />
+</div>
+
+<br>
 
 > **AI Engineer & Systems Architect** specializing in architecting, building, and deploying enterprise **Generative AI**, **LangGraph Multi-Agent Workflows**, and high-throughput **RAG Architectures** across regulated financial and health insurance systems. Bridging cutting-edge LLMs with rock-solid Python (FastAPI) and Java (Spring Boot) enterprise backend foundations.
 
