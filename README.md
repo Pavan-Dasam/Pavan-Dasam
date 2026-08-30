@@ -30,7 +30,12 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="28" height="28" /> About Me
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/dark.svg" width="100%" alt="VISUAL.MAP & SYSTEM.INFO" />
+  <a href="https://github.com/pavan-2001-cpu/pavan-2001-cpu">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/dark.svg">
+      <img alt="Pavan Dasam VISUAL.MAP & SYSTEM.INFO" src="https://raw.githubusercontent.com/pavan-2001-cpu/pavan-2001-cpu/main/dark.svg" width="100%">
+    </picture>
+  </a>
 </div>
 
 <br>
