@@ -8,14 +8,15 @@
   <p align="center">
     <img src="https://img.shields.io/badge/Degree-B.Tech%20in%20Computer%20Science-4C1D95?style=flat-square&logo=academia&logoColor=white" alt="Academic Degree" />
     <img src="https://img.shields.io/badge/Institution-JNTUK%20University-6D28D9?style=flat-square&logo=google-scholar&logoColor=white" alt="Institution" />
-    <img src="https://img.shields.io/badge/Location-India-5B21B6?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
+    <img src="https://img.shields.io/badge/Experience-3%2B%20Years%20Enterprise%20AI-5B21B6?style=flat-square&logo=visual-studio-code&logoColor=white" alt="Experience" />
+    <img src="https://img.shields.io/badge/Location-India-4C1D95?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
   </p>
 
   <p align="center">
-    <a href="http://localhost:8080/PD_Portfoilo.html"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=A78BFA&labelColor=1E1B4B" alt="Portfolio" /></a>
-    <a href="https://www.linkedin.com/in/pavan-kumar-dasam-2574893b9/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=A78BFA&labelColor=1E1B4B" alt="LinkedIn" /></a>
-    <a href="mailto:pavanwork2113@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=A78BFA&labelColor=1E1B4B" alt="Email" /></a>
-    <a href="https://github.com/pavan-2001-cpu"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=A78BFA&labelColor=1E1B4B" alt="GitHub" /></a>
+    <a href="https://pavan-2001-cpu.github.io/pavan-2001-cpu/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00F0FF&labelColor=1E1B4B" alt="Portfolio" /></a>
+    <a href="https://www.linkedin.com/in/pavan-kumar-dasam-2574893b9/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF&labelColor=1E1B4B" alt="LinkedIn" /></a>
+    <a href="mailto:pavanwork2113@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00F0FF&labelColor=1E1B4B" alt="Email" /></a>
+    <a href="https://github.com/pavan-2001-cpu"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=1E1B4B" alt="GitHub" /></a>
   </p>
 
   <p align="center">
@@ -100,15 +101,22 @@
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28" height="28" /> Featured Projects
 
-<details>
+<details open>
 <summary><b>01. Autonomous Claims Processing Agent (Enterprise Multi-Agent Fabric)</b></summary>
 <br>
 
 > Stateful, end-to-end multi-agent LangGraph system designed for financial and insurance operations, automating claim intake, document verification, policy retrieval, eligibility checks, fraud risk scoring, and recommendation assembling.
 
+```
+[ Claim Intake ] ──► [ OCR Extraction ] ──► [ Policy RAG (Azure AI Search) ]
+                                                            │
+                                                            ▼
+[ Recommendation ] ◄── [ Human-in-the-Loop Sign-off ] ◄── [ Multi-Agent Evaluation ]
+```
+
 | Metric / Dimension | Specification |
 | :--- | :--- |
-| **Stack** | Python, LangGraph, LangChain, FastAPI, Azure AI Search, PostgreSQL, Docker, LangSmith |
+| **Stack** | Python 3.12, LangGraph, LangChain, FastAPI, Azure AI Search, PostgreSQL, Docker, LangSmith |
 | **Scale** | Multi-agent coordination handling Short-Term Disability, Life, and Supplemental Health claims |
 | **Performance** | Sub-second state transitions across 7 specialized nodes with 94%+ automated confidence rating |
 | **Security** | PII redaction layer, Human-in-the-Loop (HITL) mandatory sign-off checkpoints, auditable trace logs |
@@ -344,7 +352,7 @@ Current_Focus:
   <a href="https://github.com/pavan-2001-cpu">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="http://localhost:8080/PD_Portfoilo.html">
+  <a href="https://pavan-2001-cpu.github.io/pavan-2001-cpu/">
     <img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
 </div>
