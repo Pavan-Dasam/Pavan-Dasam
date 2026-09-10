@@ -87,7 +87,7 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" width="28" height="28" /> AI & Machine Learning Specialization
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="28" height="28" /> AI & Machine Learning Specialization
 
 | Domain | Proficiency | Details & Implementation Scope |
 | :--- | :--- | :--- |
@@ -99,7 +99,7 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28" height="28" /> Featured Projects
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28" height="28" /> Featured Projects
 
 <details open>
 <summary><b>01. Autonomous Claims Processing Agent (Enterprise Multi-Agent Fabric)</b></summary>
@@ -217,7 +217,7 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" width="28" height="28" /> Key Achievements
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="28" height="28" /> Key Achievements
 
 <div align="center">
 
@@ -304,7 +304,7 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png" width="28" height="28" /> GitHub Trophies
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="28" height="28" /> GitHub Trophies
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/trophies.svg" width="100%" alt="GitHub Trophies" />
