@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pavan Dasam - AI Engineer specializing in Generative AI, Agentic AI, and RAG Systems. 3+ Years in Financial & Health Insurance domains.">
+    <meta name="description"
+        content="Pavan Dasam - AI Engineer specializing in Generative AI, Agentic AI, and RAG Systems. 3+ Years in Financial & Health Insurance domains.">
     <title>Pavan Dasam | AI Engineer · Generative AI · Agentic AI · RAG</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
     <!-- Font Awesome & DevIcons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     <style>
-        /* === ROOT THEME & COLOR PALETTE (METALLIC ALLOY) === */
+        /* === ROOT THEME & COLOR PALETTE (CRIMSON RED & GLOWING METALLIC) === */
         :root {
-            /* Metallic Palette Tones */
-            --metal-gold: #dfb76c;
-            --metal-gold-bright: #f3d48b;
+            /* Glowing Metallic Alloy Tones */
+            --metal-crimson: #E50914;
+            --metal-ruby: #ff2a36;
             --metal-platinum: #f8fafc;
             --metal-chrome: #e2e8f0;
             --metal-silver: #cbd5e1;
             --metal-titanium: #94a3b8;
-            --metal-gunmetal: #64748b;
-            --metal-bronze: #c59b6d;
+            --metal-gunmetal: #475569;
 
-            --red-primary: #dfb76c;
-            --red-glow: rgba(223, 183, 108, 0.60);
-            --red-glow-strong: rgba(243, 212, 139, 0.92);
-            --red-dark: #b58d4a;
-            --red-light: #f3d48b;
+            --red-primary: #E50914;
+            --red-glow: rgba(229, 9, 20, 0.60);
+            --red-glow-strong: rgba(255, 42, 54, 0.92);
+            --red-dark: #8f060d;
+            --red-light: #ff4d58;
 
-            --bg-main: #0a0c10;
-            --bg-card: #121620;
-            --bg-card-hover: #1a202c;
-            --bg-header: rgba(10, 12, 16, 0.92);
-            --border-subtle: rgba(203, 213, 225, 0.16);
-            --border-red: rgba(223, 183, 108, 0.55);
+            --bg-main: #0c0d12;
+            --bg-card: #14161f;
+            --bg-card-hover: #1c202c;
+            --bg-header: rgba(12, 13, 18, 0.92);
+            --border-subtle: rgba(203, 213, 225, 0.14);
+            --border-red: rgba(229, 9, 20, 0.45);
 
             --text-primary: #f8fafc;
             --text-secondary: #e2e8f0;
@@ -53,7 +56,9 @@
         }
 
         /* === GLOBAL RESET === */
-        *, *::before, *::after {
+        *,
+        *::before,
+        *::after {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
@@ -72,7 +77,8 @@
         }
 
         /* === CUSTOM ANIMATED CURSOR === */
-        .cursor-dot, .cursor-outline {
+        .cursor-dot,
+        .cursor-outline {
             pointer-events: none;
             position: fixed;
             top: 50%;
@@ -94,12 +100,16 @@
             width: 38px;
             height: 38px;
             border: 2px solid var(--red-primary);
-            box-shadow: 0 0 22px rgba(223, 183, 108, 0.85), 0 0 45px rgba(243, 212, 139, 0.45);
+            box-shadow: 0 0 22px rgba(229, 9, 20, 0.85), 0 0 45px rgba(255, 77, 88, 0.45);
             transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease;
         }
 
         @media (hover: none) and (pointer: coarse) {
-            .cursor-dot, .cursor-outline { display: none; }
+
+            .cursor-dot,
+            .cursor-outline {
+                display: none;
+            }
         }
 
         /* === COSMIC STARFIELD BACKGROUND === */
@@ -112,14 +122,19 @@
             z-index: -1;
             pointer-events: none;
             overflow: hidden;
-            background: radial-gradient(circle at 80% 10%, rgba(223, 183, 108, 0.10) 0%, transparent 40%),
-                        radial-gradient(circle at 10% 60%, rgba(203, 213, 225, 0.08) 0%, transparent 45%),
-                        var(--bg-main);
+            background: radial-gradient(circle at 80% 10%, rgba(229, 9, 20, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 10% 60%, rgba(203, 213, 225, 0.08) 0%, transparent 45%),
+                var(--bg-main);
         }
 
         @keyframes move-stars {
-            from { transform: translateY(0px); }
-            to { transform: translateY(-2000px); }
+            from {
+                transform: translateY(0px);
+            }
+
+            to {
+                transform: translateY(-2000px);
+            }
         }
 
         .stars-layer {
@@ -132,22 +147,22 @@
         }
 
         .stars-1 {
-            background-image: radial-gradient(1px 1px at 25px 35px, #fff, rgba(0,0,0,0)),
-                              radial-gradient(1.5px 1.5px at 150px 220px, #f3d48b, rgba(0,0,0,0)),
-                              radial-gradient(1px 1px at 300px 90px, #fff, rgba(0,0,0,0)),
-                              radial-gradient(2px 2px at 450px 380px, #fff, rgba(0,0,0,0)),
-                              radial-gradient(1px 1px at 600px 180px, #e2e8f0, rgba(0,0,0,0)),
-                              radial-gradient(1.5px 1.5px at 750px 420px, #fff, rgba(0,0,0,0));
+            background-image: radial-gradient(1px 1px at 25px 35px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(1.5px 1.5px at 150px 220px, #ff4d58, rgba(0, 0, 0, 0)),
+                radial-gradient(1px 1px at 300px 90px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(2px 2px at 450px 380px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(1px 1px at 600px 180px, #e2e8f0, rgba(0, 0, 0, 0)),
+                radial-gradient(1.5px 1.5px at 750px 420px, #fff, rgba(0, 0, 0, 0));
             background-size: 800px 600px;
             animation: move-stars 120s linear infinite;
             opacity: 0.6;
         }
 
         .stars-2 {
-            background-image: radial-gradient(1.5px 1.5px at 80px 120px, #f3d48b, rgba(0,0,0,0)),
-                              radial-gradient(2px 2px at 280px 320px, #fff, rgba(0,0,0,0)),
-                              radial-gradient(1px 1px at 520px 40px, #fff, rgba(0,0,0,0)),
-                              radial-gradient(2.5px 2.5px at 700px 260px, #dfb76c, rgba(0,0,0,0));
+            background-image: radial-gradient(1.5px 1.5px at 80px 120px, #ff4d58, rgba(0, 0, 0, 0)),
+                radial-gradient(2px 2px at 280px 320px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(1px 1px at 520px 40px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(2.5px 2.5px at 700px 260px, #E50914, rgba(0, 0, 0, 0));
             background-size: 750px 500px;
             animation: move-stars 80s linear infinite;
             opacity: 0.45;
@@ -173,12 +188,12 @@
             letter-spacing: 0.18em;
             text-transform: uppercase;
             margin-bottom: 0.5rem;
-            text-shadow: 0 0 12px rgba(243, 212, 139, 0.65);
+            text-shadow: 0 0 12px rgba(255, 77, 88, 0.65);
             position: relative;
         }
 
         .gradient-text {
-            background: linear-gradient(90deg, #ffffff 0%, #cbd5e1 22%, #dfb76c 48%, #f8fafc 72%, #cbd5e1 100%);
+            background: linear-gradient(90deg, #ffffff 0%, #cbd5e1 20%, #ff4d58 45%, #E50914 55%, #f8fafc 75%, #cbd5e1 100%);
             background-size: 250% 100%;
             -webkit-background-clip: text;
             background-clip: text;
@@ -187,9 +202,17 @@
         }
 
         @keyframes gradient-flow {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
         }
 
         .section-title {
@@ -250,13 +273,20 @@
         .btn-secondary:hover {
             border-color: var(--red-primary);
             color: var(--red-light);
-            background: rgba(223, 183, 108, 0.1);
+            background: rgba(229, 9, 20, 0.1);
             transform: translateY(-3px);
         }
 
         @keyframes pulse-glow {
-            0%, 100% { box-shadow: 0 0 22px rgba(223, 183, 108, 0.85), 0 0 45px rgba(243, 212, 139, 0.45); }
-            50% { box-shadow: 0 0 28px var(--red-glow-strong); }
+
+            0%,
+            100% {
+                box-shadow: 0 0 22px rgba(229, 9, 20, 0.85), 0 0 45px rgba(255, 77, 88, 0.45);
+            }
+
+            50% {
+                box-shadow: 0 0 28px var(--red-glow-strong);
+            }
         }
 
         /* === HEADER & NAVIGATION === */
@@ -327,11 +357,13 @@
             transition: width 0.3s ease;
         }
 
-        nav a:hover, nav a.active {
+        nav a:hover,
+        nav a.active {
             color: #fff;
         }
 
-        nav a:hover::after, nav a.active::after {
+        nav a:hover::after,
+        nav a.active::after {
             width: 100%;
         }
 
@@ -367,7 +399,7 @@
             font-weight: 700;
             letter-spacing: 0.05em;
             margin-bottom: 0.4rem;
-            text-shadow: 0 0 14px rgba(243, 212, 139, 0.7);
+            text-shadow: 0 0 14px rgba(255, 77, 88, 0.7);
         }
 
         .hero-name {
@@ -377,7 +409,7 @@
             line-height: 1.08;
             margin-bottom: 0.5rem;
             letter-spacing: -0.04em;
-            filter: drop-shadow(0 0 30px rgba(223, 183, 108, 0.5)) drop-shadow(0 0 60px rgba(243, 212, 139, 0.25));
+            filter: drop-shadow(0 0 30px rgba(229, 9, 20, 0.5)) drop-shadow(0 0 60px rgba(255, 77, 88, 0.25));
         }
 
         .hero-typing-wrap {
@@ -392,12 +424,14 @@
             color: var(--red-light);
             border-right: 3px solid var(--red-primary);
             padding-right: 4px;
-            text-shadow: 0 0 16px rgba(243, 212, 139, 0.85);
+            text-shadow: 0 0 16px rgba(255, 77, 88, 0.85);
             animation: cursor-blink 0.75s step-end infinite;
         }
 
         @keyframes cursor-blink {
-            50% { border-color: transparent; }
+            50% {
+                border-color: transparent;
+            }
         }
 
         .hero-bio {
@@ -419,7 +453,7 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            background: rgba(223, 183, 108, 0.08);
+            background: rgba(229, 9, 20, 0.08);
             border: 1px solid var(--border-red);
             color: #f8fafc;
             font-family: var(--font-mono);
@@ -427,7 +461,7 @@
             font-weight: 700;
             padding: 5px 12px;
             border-radius: 99px;
-            box-shadow: 0 0 14px rgba(223, 183, 108, 0.22);
+            box-shadow: 0 0 14px rgba(229, 9, 20, 0.22);
         }
 
         .hero-badge i {
@@ -489,8 +523,8 @@
         .social-link:hover {
             color: #fff;
             border-color: var(--red-primary);
-            background: rgba(223, 183, 108, 0.15);
-            box-shadow: 0 0 22px rgba(223, 183, 108, 0.85), 0 0 45px rgba(243, 212, 139, 0.45);
+            background: rgba(229, 9, 20, 0.15);
+            box-shadow: 0 0 22px rgba(229, 9, 20, 0.85), 0 0 45px rgba(255, 77, 88, 0.45);
             transform: translateY(-4px);
         }
 
@@ -521,12 +555,17 @@
             background: conic-gradient(from 0deg, var(--red-primary), transparent 30%, var(--red-light), transparent 70%, var(--red-primary));
             animation: rotate-conic 6s linear infinite;
             z-index: 1;
-            box-shadow: 0 0 45px rgba(223, 183, 108, 0.75), 0 0 85px rgba(243, 212, 139, 0.4);
+            box-shadow: 0 0 45px rgba(229, 9, 20, 0.75), 0 0 85px rgba(255, 77, 88, 0.4);
         }
 
         @keyframes rotate-conic {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .portrait-inner {
@@ -565,7 +604,7 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), 0 0 18px rgba(223, 183, 108, 0.45);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), 0 0 18px rgba(229, 9, 20, 0.45);
             backdrop-filter: blur(8px);
         }
 
@@ -579,8 +618,17 @@
         }
 
         @keyframes pulse-dot {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.4); opacity: 0.6; }
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(1.4);
+                opacity: 0.6;
+            }
         }
 
         .status-badge span {
@@ -660,7 +708,7 @@
             border-color: var(--border-red);
             background: var(--bg-card-hover);
             transform: translateX(6px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
         }
 
         .principle-icon {
@@ -668,7 +716,7 @@
             height: 48px;
             flex-shrink: 0;
             border-radius: 10px;
-            background: rgba(223, 183, 108, 0.12);
+            background: rgba(229, 9, 20, 0.12);
             border: 1px solid var(--border-red);
             display: grid;
             place-items: center;
@@ -703,7 +751,7 @@
             bottom: 10px;
             left: 20px;
             width: 2px;
-            background: linear-gradient(180deg, var(--red-primary), rgba(223, 183, 108, 0.1));
+            background: linear-gradient(180deg, var(--red-primary), rgba(229, 9, 20, 0.1));
         }
 
         .timeline-item {
@@ -765,7 +813,7 @@
             font-size: 0.78rem;
             font-weight: 700;
             color: var(--red-light);
-            background: rgba(223, 183, 108, 0.1);
+            background: rgba(229, 9, 20, 0.1);
             border: 1px solid var(--border-red);
             padding: 4px 10px;
             border-radius: 99px;
@@ -813,7 +861,7 @@
             font-size: 0.7rem;
             font-weight: 700;
             color: var(--red-light);
-            background: rgba(223, 183, 108, 0.12);
+            background: rgba(229, 9, 20, 0.12);
             padding: 3px 8px;
             border-radius: 4px;
             border: 1px solid var(--border-red);
@@ -898,7 +946,7 @@
             border-color: var(--border-red);
             background: var(--bg-card-hover);
             transform: translateY(-5px);
-            box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
         }
 
         .skill-category-header {
@@ -916,7 +964,7 @@
             width: 38px;
             height: 38px;
             border-radius: 8px;
-            background: rgba(223, 183, 108, 0.1);
+            background: rgba(229, 9, 20, 0.1);
             display: grid;
             place-items: center;
         }
@@ -946,7 +994,7 @@
         .skill-tag:hover {
             border-color: var(--red-primary);
             color: #fff;
-            background: rgba(223, 183, 108, 0.12);
+            background: rgba(229, 9, 20, 0.12);
         }
 
         /* === CERTIFICATIONS & EDUCATION === */
@@ -1055,7 +1103,7 @@
 
         .contact-card:hover {
             border-color: var(--red-primary);
-            background: rgba(223, 183, 108, 0.08);
+            background: rgba(229, 9, 20, 0.08);
             transform: translateX(6px);
         }
 
@@ -1063,7 +1111,7 @@
             width: 42px;
             height: 42px;
             border-radius: 8px;
-            background: rgba(223, 183, 108, 0.12);
+            background: rgba(229, 9, 20, 0.12);
             display: grid;
             place-items: center;
             color: var(--red-light);
@@ -1143,12 +1191,14 @@
                 text-align: center;
             }
 
-            .hero-bio, .hero-subtitle {
+            .hero-bio,
+            .hero-subtitle {
                 margin-left: auto;
                 margin-right: auto;
             }
 
-            .hero-badges, .hero-actions {
+            .hero-badges,
+            .hero-actions {
                 justify-content: center;
             }
 
@@ -1160,7 +1210,8 @@
                 width: 280px;
             }
 
-            .about-grid, .contact-box {
+            .about-grid,
+            .contact-box {
                 grid-template-columns: 1fr;
                 gap: 2.5rem;
             }
@@ -1210,7 +1261,7 @@
                 padding: 2rem 1.5rem;
             }
         }
-    
+
         /* === HARDWARE-ACCELERATED HERO AMBIENT GLOW & WATERMARK === */
         #hero {
             position: relative;
@@ -1232,8 +1283,8 @@
             max-height: 750px;
             border-radius: 50%;
             background: radial-gradient(ellipse at 65% 50%,
-                    rgba(243, 212, 139, 0.35) 0%,
-                    rgba(223, 183, 108, 0.24) 25%,
+                    rgba(255, 77, 88, 0.35) 0%,
+                    rgba(229, 9, 20, 0.25) 25%,
                     rgba(203, 213, 225, 0.14) 30%,
                     rgba(148, 163, 184, 0.08) 55%,
                     transparent 75%);
@@ -1257,7 +1308,7 @@
             opacity: 0.12;
             pointer-events: none;
             z-index: 0;
-            filter: contrast(1.15) brightness(1.1) drop-shadow(0 0 30px rgba(223, 183, 108, 0.55)) drop-shadow(0 0 60px rgba(243, 212, 139, 0.25));
+            filter: contrast(1.15) brightness(1.1) drop-shadow(0 0 30px rgba(229, 9, 20, 0.55)) drop-shadow(0 0 60px rgba(255, 77, 88, 0.25));
             mask-image: radial-gradient(ellipse at 65% 50%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 75%);
             -webkit-mask-image: radial-gradient(ellipse at 65% 50%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 75%);
             will-change: transform, opacity;
@@ -1314,7 +1365,7 @@
                 transform: translate3d(50%, -50%, 0);
                 width: 90%;
                 opacity: 0.08;
-                filter: contrast(1.1) brightness(1.05) drop-shadow(0 0 15px rgba(223, 183, 108, 0.25));
+                filter: contrast(1.1) brightness(1.05) drop-shadow(0 0 15px rgba(229, 9, 20, 0.25));
                 mask-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 75%);
                 -webkit-mask-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 75%);
             }
@@ -1388,12 +1439,12 @@
         .exp-filter-btn:hover {
             color: #fff;
             border-color: var(--red-light);
-            background: rgba(223, 183, 108, 0.14);
+            background: rgba(229, 9, 20, 0.14);
             transform: translateY(-2px);
         }
 
         .exp-filter-btn.active {
-            background: linear-gradient(135deg, rgba(223, 183, 108, 0.4), rgba(203, 213, 225, 0.6));
+            background: linear-gradient(135deg, rgba(229, 9, 20, 0.4), rgba(203, 213, 225, 0.6));
             color: #fff;
             border-color: var(--red-primary);
             box-shadow: 0 0 18px var(--red-glow);
@@ -1418,7 +1469,7 @@
             right: 25px;
             z-index: 9999;
             background: linear-gradient(135deg, rgba(18, 22, 32, 0.95), rgba(10, 12, 16, 0.98));
-            border: 1px solid #dfb76c;
+            border: 1px solid #E50914;
             color: #f8fafc;
             padding: 11px 20px;
             border-radius: 99px;
@@ -1426,7 +1477,7 @@
             font-size: 0.84rem;
             font-weight: 600;
             cursor: pointer;
-            box-shadow: 0 0 25px rgba(223, 183, 108, 0.65), 0 0 50px rgba(243, 212, 139, 0.3);
+            box-shadow: 0 0 25px rgba(229, 9, 20, 0.65), 0 0 50px rgba(255, 77, 88, 0.3);
             display: flex;
             align-items: center;
             gap: 10px;
@@ -1436,7 +1487,7 @@
 
         .terminal-floating-btn:hover {
             transform: translateY(-3px) scale(1.03);
-            box-shadow: 0 0 30px rgba(223, 183, 108, 0.6);
+            box-shadow: 0 0 30px rgba(229, 9, 20, 0.6);
             border-color: var(--red-light);
             color: #fff;
         }
@@ -1463,10 +1514,10 @@
             width: min(480px, calc(100vw - 30px));
             height: 380px;
             background: rgba(13, 16, 23, 0.97);
-            border: 1px solid rgba(223, 183, 108, 0.38);
+            border: 1px solid rgba(229, 9, 20, 0.38);
             border-radius: 12px;
             z-index: 9999;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.85), 0 0 25px rgba(223, 183, 108, 0.2);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.85), 0 0 25px rgba(229, 9, 20, 0.2);
             backdrop-filter: blur(16px);
             display: flex;
             flex-direction: column;
@@ -1552,9 +1603,9 @@
         }
 
         .term-badge {
-            background: rgba(223, 183, 108, 0.14);
-            border: 1px solid rgba(223, 183, 108, 0.35);
-            color: #f3d48b;
+            background: rgba(229, 9, 20, 0.14);
+            border: 1px solid rgba(229, 9, 20, 0.35);
+            color: #ff4d58;
             padding: 2px 8px;
             border-radius: 4px;
             cursor: pointer;
@@ -1564,14 +1615,14 @@
         }
 
         .term-badge:hover {
-            background: rgba(223, 183, 108, 0.25);
+            background: rgba(229, 9, 20, 0.25);
             color: #fff;
             border-color: var(--red-light);
         }
 
         /* === ENHANCEMENT 1: 60-SECOND RECRUITER BRIEF BUTTON & MODAL === */
         .btn-recruiter-brief {
-            background: linear-gradient(135deg, rgba(223, 183, 108, 0.18), rgba(18, 22, 32, 0.9));
+            background: linear-gradient(135deg, rgba(229, 9, 20, 0.18), rgba(18, 22, 32, 0.9));
             border: 1px solid var(--red-light);
             color: #fff;
             padding: 10px 18px;
@@ -1584,15 +1635,15 @@
             gap: 8px;
             cursor: pointer;
             transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
-            box-shadow: 0 0 22px rgba(223, 183, 108, 0.55), 0 0 45px rgba(243, 212, 139, 0.25);
+            box-shadow: 0 0 22px rgba(229, 9, 20, 0.55), 0 0 45px rgba(255, 77, 88, 0.25);
             backdrop-filter: blur(8px);
         }
 
         .btn-recruiter-brief:hover {
             transform: translateY(-2px);
-            background: linear-gradient(135deg, rgba(223, 183, 108, 0.35), rgba(22, 27, 40, 0.95));
-            box-shadow: 0 0 25px rgba(223, 183, 108, 0.55);
-            border-color: #f3d48b;
+            background: linear-gradient(135deg, rgba(229, 9, 20, 0.35), rgba(22, 27, 40, 0.95));
+            box-shadow: 0 0 25px rgba(229, 9, 20, 0.55);
+            border-color: #ff4d58;
             color: #fff;
         }
 
@@ -1622,13 +1673,13 @@
 
         .portfolio-modal-content {
             background: linear-gradient(160deg, #121620, #0a0c10);
-            border: 1px solid rgba(223, 183, 108, 0.4);
+            border: 1px solid rgba(229, 9, 20, 0.4);
             border-radius: 16px;
             max-width: 680px;
             width: 100%;
             max-height: 90vh;
             overflow-y: auto;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9), 0 0 35px rgba(223, 183, 108, 0.2);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9), 0 0 35px rgba(229, 9, 20, 0.2);
             padding: 2rem;
             position: relative;
             transform: scale(0.95);
@@ -1656,9 +1707,9 @@
         }
 
         .modal-close-btn:hover {
-            background: rgba(223, 183, 108, 0.2);
+            background: rgba(229, 9, 20, 0.2);
             border-color: var(--red-light);
-            color: #f3d48b;
+            color: #ff4d58;
             transform: rotate(90deg);
         }
 
@@ -1695,11 +1746,11 @@
         /* === ENHANCEMENT 2: INTERACTIVE MULTI-AGENT SIMULATOR === */
         .agent-simulator-card {
             background: linear-gradient(160deg, rgba(18, 22, 32, 0.88), rgba(10, 12, 16, 0.97));
-            border: 1px solid rgba(223, 183, 108, 0.35);
+            border: 1px solid rgba(229, 9, 20, 0.35);
             border-radius: 14px;
             padding: 1.4rem;
             margin-top: 1.4rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(223, 183, 108, 0.06);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(229, 9, 20, 0.06);
         }
 
         .simulator-header {
@@ -1744,13 +1795,13 @@
         .scenario-btn:hover {
             border-color: var(--red-light);
             color: #fff;
-            background: rgba(223, 183, 108, 0.1);
+            background: rgba(229, 9, 20, 0.1);
         }
 
         .scenario-btn.active {
-            background: rgba(223, 183, 108, 0.2);
+            background: rgba(229, 9, 20, 0.2);
             border-color: var(--red-light);
-            color: #f3d48b;
+            color: #ff4d58;
             font-weight: 700;
         }
 
@@ -1782,14 +1833,14 @@
         }
 
         .agent-node.active-node {
-            background: rgba(223, 183, 108, 0.22);
+            background: rgba(229, 9, 20, 0.22);
             border-color: var(--red-light);
-            box-shadow: 0 0 22px rgba(223, 183, 108, 0.85), 0 0 45px rgba(243, 212, 139, 0.45);
+            box-shadow: 0 0 22px rgba(229, 9, 20, 0.85), 0 0 45px rgba(255, 77, 88, 0.45);
             transform: scale(1.05);
         }
 
         .agent-node.active-node i {
-            color: #f3d48b;
+            color: #ff4d58;
         }
 
         .agent-node.done-node {
@@ -1834,7 +1885,7 @@
         }
 
         .metric-score-card:hover {
-            border-color: rgba(223, 183, 108, 0.4);
+            border-color: rgba(229, 9, 20, 0.4);
         }
 
         .metric-score-value {
@@ -1863,7 +1914,7 @@
         /* === ENHANCEMENT 5: ARCHITECTURE BLUEPRINT BUTTON & DRAWER === */
         .btn-blueprint-trigger {
             background: transparent;
-            border: 1px dashed rgba(223, 183, 108, 0.4);
+            border: 1px dashed rgba(229, 9, 20, 0.4);
             color: var(--text-secondary);
             font-family: var(--font-mono);
             font-size: 0.74rem;
@@ -1878,13 +1929,14 @@
         }
 
         .btn-blueprint-trigger:hover {
-            background: rgba(223, 183, 108, 0.1);
+            background: rgba(229, 9, 20, 0.1);
             border-color: var(--red-light);
             color: #fff;
         }
 
     </style>
 </head>
+
 <body>
 
     <!-- Custom Cursor -->
@@ -1932,11 +1984,14 @@
                             <span>I'm </span><span class="typing-text"></span>
                         </div>
                         <p class="hero-bio">
-                            AI Engineer with 3+ Years of experience designing, building, and deploying enterprise Generative AI, LLM assistants, and multi-step agentic workflows across Financial Insurance and Health Insurance domains.
+                            AI Engineer with 3+ Years of experience designing, building, and deploying enterprise
+                            Generative AI, LLM assistants, and multi-step agentic workflows across Financial Insurance
+                            and Health Insurance domains.
                         </p>
 
                         <div class="hero-badges">
-                            <div class="hero-badge"><i class="fas fa-certificate"></i> LangChain & LangGraph Certified</div>
+                            <div class="hero-badge"><i class="fas fa-certificate"></i> LangChain & LangGraph Certified
+                            </div>
                             <div class="hero-badge"><i class="fas fa-network-wired"></i> Multi-Agent Orchestration</div>
                             <div class="hero-badge"><i class="fas fa-cloud"></i> Azure OpenAI & Claude</div>
                             <div class="hero-badge"><i class="fas fa-shield-alt"></i> Responsible AI & Guardrails</div>
@@ -1998,19 +2053,29 @@
                 <div class="section-header reveal-on-scroll">
                     <span class="section-tag">// PROFESSIONAL PROFILE</span>
                     <h2 class="section-title gradient-text">Professional Summary</h2>
-                    <p class="section-subtitle">Delivering production-oriented Generative AI, RAG pipelines, and stateful agentic workflows.</p>
+                    <p class="section-subtitle">Delivering production-oriented Generative AI, RAG pipelines, and
+                        stateful agentic workflows.</p>
                 </div>
 
                 <div class="about-grid">
                     <div class="about-narrative reveal-on-scroll">
                         <p>
-                            <strong>AI Engineer with over 3 years of experience</strong> designing, building, and deploying enterprise Generative AI and Agentic AI solutions across Financial Insurance and Health Insurance domains.
+                            <strong>AI Engineer with over 3 years of experience</strong> designing, building, and
+                            deploying enterprise Generative AI and Agentic AI solutions across Financial Insurance and
+                            Health Insurance domains.
                         </p>
                         <p>
-                            Hands-on experience developing production-oriented RAG applications, LLM-powered assistants, and multi-step agentic workflows using <strong>Python, LangChain, and LangGraph</strong>. Skilled across the full GenAI application lifecycle — prompt engineering, embeddings, vector search, retrieval pipelines, tool integration, structured outputs, evaluation, and guardrails — with practical exposure to <strong>FastAPI-based API development and Docker/Azure deployment</strong>.
+                            Hands-on experience developing production-oriented RAG applications, LLM-powered assistants,
+                            and multi-step agentic workflows using <strong>Python, LangChain, and LangGraph</strong>.
+                            Skilled across the full GenAI application lifecycle — prompt engineering, embeddings, vector
+                            search, retrieval pipelines, tool integration, structured outputs, evaluation, and
+                            guardrails — with practical exposure to <strong>FastAPI-based API development and
+                                Docker/Azure deployment</strong>.
                         </p>
                         <p>
-                            Experienced collaborating with architects, product owners, SMEs, and compliance stakeholders to translate regulated, enterprise business requirements into <strong>reliable, grounded, and auditable AI systems</strong>.
+                            Experienced collaborating with architects, product owners, SMEs, and compliance stakeholders
+                            to translate regulated, enterprise business requirements into <strong>reliable, grounded,
+                                and auditable AI systems</strong>.
                         </p>
                     </div>
 
@@ -2019,7 +2084,8 @@
                             <div class="principle-icon"><i class="fas fa-project-diagram"></i></div>
                             <div class="principle-text">
                                 <h4>Agentic AI & State Management</h4>
-                                <p>LangGraph multi-agent systems with persistent state, tool-calling, conditional branching, and Human-in-the-Loop checkpoints.</p>
+                                <p>LangGraph multi-agent systems with persistent state, tool-calling, conditional
+                                    branching, and Human-in-the-Loop checkpoints.</p>
                             </div>
                         </div>
 
@@ -2027,7 +2093,8 @@
                             <div class="principle-icon"><i class="fas fa-layer-group"></i></div>
                             <div class="principle-text">
                                 <h4>Advanced RAG & Retrieval</h4>
-                                <p>OCR extraction, RecursiveCharacterTextSplitter, embeddings, Azure AI Search, reranking, and citation grounding.</p>
+                                <p>OCR extraction, RecursiveCharacterTextSplitter, embeddings, Azure AI Search,
+                                    reranking, and citation grounding.</p>
                             </div>
                         </div>
 
@@ -2035,7 +2102,8 @@
                             <div class="principle-icon"><i class="fas fa-shield-virus"></i></div>
                             <div class="principle-text">
                                 <h4>Evaluation & Responsible AI</h4>
-                                <p>RAGAS, LLM-as-a-Judge, prompt injection protection, PII filtering, output validation, and human escalation.</p>
+                                <p>RAGAS, LLM-as-a-Judge, prompt injection protection, PII filtering, output validation,
+                                    and human escalation.</p>
                             </div>
                         </div>
                     </div>
@@ -2398,7 +2466,8 @@
                 <div class="section-header reveal-on-scroll">
                     <span class="section-tag">// EXPERTISE MATRIX</span>
                     <h2 class="section-title gradient-text">Technical Skills</h2>
-                    <p class="section-subtitle">Comprehensive breakdown of frameworks, models, data pipelines, and deployment tooling.</p>
+                    <p class="section-subtitle">Comprehensive breakdown of frameworks, models, data pipelines, and
+                        deployment tooling.</p>
                 </div>
 
                 <div class="skills-category-grid">
@@ -2536,25 +2605,29 @@
                     <div class="cert-card reveal-on-scroll">
                         <p class="cert-issuer">DATABRICKS CERTIFIED</p>
                         <h3 class="cert-title">Generative AI Engineer</h3>
-                        <p class="cert-desc">Certified in foundational concepts, LLM architectures, prompt engineering, fine-tuning, and GenAI production deployment.</p>
+                        <p class="cert-desc">Certified in foundational concepts, LLM architectures, prompt engineering,
+                            fine-tuning, and GenAI production deployment.</p>
                     </div>
 
                     <div class="cert-card reveal-on-scroll">
                         <p class="cert-issuer">LANGCHAIN OFFICIAL</p>
                         <h3 class="cert-title">LangChain Certification</h3>
-                        <p class="cert-desc">Validated mastery in LLM orchestration, chains, indexes, document loaders, vector stores, and custom retrieval pipelines.</p>
+                        <p class="cert-desc">Validated mastery in LLM orchestration, chains, indexes, document loaders,
+                            vector stores, and custom retrieval pipelines.</p>
                     </div>
 
                     <div class="cert-card reveal-on-scroll">
                         <p class="cert-issuer">LANGCHAIN / LANGGRAPH</p>
                         <h3 class="cert-title">LangGraph Certification</h3>
-                        <p class="cert-desc">Demonstrated capability in stateful multi-agent systems, cyclic graphs, persistence layers, and Human-in-the-Loop workflows.</p>
+                        <p class="cert-desc">Demonstrated capability in stateful multi-agent systems, cyclic graphs,
+                            persistence layers, and Human-in-the-Loop workflows.</p>
                     </div>
 
                     <div class="cert-card reveal-on-scroll">
                         <p class="cert-issuer">JNTUK UNIVERSITY</p>
                         <h3 class="cert-title">Bachelor of Technology (B.Tech)</h3>
-                        <p class="cert-desc">Graduated 2023. Strong academic grounding in computer science, software engineering, algorithms, and data systems.</p>
+                        <p class="cert-desc">Graduated 2023. Strong academic grounding in computer science, software
+                            engineering, algorithms, and data systems.</p>
                     </div>
                 </div>
             </div>
@@ -2568,7 +2641,8 @@
                         <span class="section-tag">// GET IN TOUCH</span>
                         <h2 class="section-title gradient-text">Let's Connect & Collaborate</h2>
                         <p class="section-subtitle" style="text-align: left; margin: 0;">
-                            Available for high-impact AI Engineering roles, consulting, and building enterprise Agentic & RAG solutions.
+                            Available for high-impact AI Engineering roles, consulting, and building enterprise Agentic
+                            & RAG solutions.
                         </p>
 
                         <div class="contact-methods">
@@ -2600,8 +2674,10 @@
 
                     <div class="contact-action-side">
                         <h3>Start a Conversation</h3>
-                        <p>Looking for a proven AI Engineer with enterprise experience in LangGraph, RAG, and FastAPI?</p>
-                        <a href="mailto:pavanwork2113@gmail.com?subject=Inquiry%20from%20Pavan%20Dasam%20Portfolio" class="btn-primary" style="width: 100%; justify-content: center;">
+                        <p>Looking for a proven AI Engineer with enterprise experience in LangGraph, RAG, and FastAPI?
+                        </p>
+                        <a href="mailto:pavanwork2113@gmail.com?subject=Inquiry%20from%20Pavan%20Dasam%20Portfolio"
+                            class="btn-primary" style="width: 100%; justify-content: center;">
                             <i class="fas fa-paper-plane"></i>
                             <span>Send an Email</span>
                         </a>
@@ -2614,7 +2690,8 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2026 <strong>Pavan Dasam</strong> · AI Engineer · LangChain & LangGraph Certified · Built with <span>❤️</span></p>
+            <p>© 2026 <strong>Pavan Dasam</strong> · AI Engineer · LangChain & LangGraph Certified · Built with
+                <span>❤️</span></p>
         </div>
     </footer>
 
@@ -2858,7 +2935,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const userLine = document.createElement('div');
-        userLine.style.color = '#f3d48b';
+        userLine.style.color = '#ff4d58';
         userLine.style.marginTop = '8px';
         userLine.innerHTML = '&gt; ' + cmdText;
         termOutput.appendChild(userLine);
@@ -3400,8 +3477,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     🎖️ Official Verified Credentials:
                 </div>
                 <div style="display: flex; flex-wrap: wrap; gap: 6px; font-family: var(--font-mono); font-size: 0.72rem;">
-                    <span style="background: rgba(223, 183, 108,0.12); border: 1px solid var(--border-red); color: #f3d48b; padding: 3px 8px; border-radius: 4px;">LangChain (ctddbhm9sf)</span>
-                    <span style="background: rgba(223, 183, 108,0.12); border: 1px solid var(--border-red); color: #f3d48b; padding: 3px 8px; border-radius: 4px;">LangGraph (9ucdiusaz6)</span>
+                    <span style="background: rgba(229, 9, 20,0.12); border: 1px solid var(--border-red); color: #ff4d58; padding: 3px 8px; border-radius: 4px;">LangChain (ctddbhm9sf)</span>
+                    <span style="background: rgba(229, 9, 20,0.12); border: 1px solid var(--border-red); color: #ff4d58; padding: 3px 8px; border-radius: 4px;">LangGraph (9ucdiusaz6)</span>
                     <span style="background: rgba(251,191,36,0.12); border: 1px solid rgba(251,191,36,0.4); color: #fbbf24; padding: 3px 8px; border-radius: 4px;">Databricks GenAI Certified</span>
                 </div>
             </div>
@@ -3432,7 +3509,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // ENTERPRISE SYSTEM DESIGN SPECIFICATION
             </div>
 
-            <div style="background: #08090e; border: 1px solid rgba(223, 183, 108,0.3); border-radius: 10px; padding: 14px; margin-bottom: 14px; font-family: var(--font-mono); font-size: 0.75rem; color: #e2e8f0; line-height: 1.6; overflow-x: auto;" id="bpAscii">
+            <div style="background: #08090e; border: 1px solid rgba(229, 9, 20,0.3); border-radius: 10px; padding: 14px; margin-bottom: 14px; font-family: var(--font-mono); font-size: 0.75rem; color: #e2e8f0; line-height: 1.6; overflow-x: auto;" id="bpAscii">
                 [Claim Stream] ➔ [FastAPI Ingestion] ➔ [Azure Service Bus Queue]
                                                       │
                                                       ▼
@@ -3457,4 +3534,5 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
 
 </body>
+
 </html>
