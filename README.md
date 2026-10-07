@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/header.svg" width="100%" alt="Pavan Dasam Header Banner" />
 
   <a href="https://git.io/typing-svg">
@@ -320,10 +320,14 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="28" height="28" /> Contribution Snake
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20Places/Cityscape.png" width="28" height="28" /> 3D Contribution Skyline
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/snake.svg" width="100%" alt="Contribution Snake Animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/profile-3d-contrib/profile-green-animate.svg">
+    <img src="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="Pavan Dasam 3D Contribution Skyline" />
+  </picture>
 </div>
 
 ---
