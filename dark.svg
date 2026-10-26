@@ -1,25 +1,25 @@
 ﻿<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
 <defs>
   <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#00F0FF">
-      <animate attributeName="stop-color" values="#00F0FF;#A855F7;#38BDF8;#00F0FF" dur="8s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#00A3FF">
+      <animate attributeName="stop-color" values="#00A3FF;#FF2E93;#38BDF8;#00A3FF" dur="8s" repeatCount="indefinite"/>
     </stop>
     <stop offset="50%" stop-color="#38BDF8">
-      <animate attributeName="stop-color" values="#38BDF8;#00F0FF;#A855F7;#38BDF8" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="stop-color" values="#38BDF8;#00A3FF;#FF2E93;#38BDF8" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="100%" stop-color="#C084FC">
-      <animate attributeName="stop-color" values="#C084FC;#38BDF8;#00F0FF;#C084FC" dur="8s" repeatCount="indefinite"/>
+    <stop offset="100%" stop-color="#FF65B2">
+      <animate attributeName="stop-color" values="#FF65B2;#38BDF8;#00A3FF;#FF65B2" dur="8s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
   <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#A855F7"/>
-    <stop offset="50%" stop-color="#00F0FF"/>
-    <stop offset="100%" stop-color="#34D399"/>
+    <stop offset="0%" stop-color="#00A3FF"/>
+    <stop offset="50%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#FF2E93"/>
   </linearGradient>
   <radialGradient id="bgGlow" cx="40%" cy="25%" r="85%">
-    <stop offset="0%" stop-color="#0D192E"/>
-    <stop offset="50%" stop-color="#09101F"/>
-    <stop offset="100%" stop-color="#040711"/>
+    <stop offset="0%" stop-color="#080D1A"/>
+    <stop offset="50%" stop-color="#04060A"/>
+    <stop offset="100%" stop-color="#020306"/>
   </radialGradient>
   <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
     <stop offset="0%" stop-color="#00F0FF" stop-opacity="0"/>
@@ -39,17 +39,17 @@
   <clipPath id="lc0"><rect x="500" y="26.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.75s" fill="freeze"/></rect></clipPath><clipPath id="lc1"><rect x="500" y="48.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.86s" fill="freeze"/></rect></clipPath><clipPath id="lc2"><rect x="500" y="70.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.97s" fill="freeze"/></rect></clipPath><clipPath id="lc3"><rect x="500" y="92.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.08s" fill="freeze"/></rect></clipPath><clipPath id="lc4"><rect x="500" y="114.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.19s" fill="freeze"/></rect></clipPath><clipPath id="lc5"><rect x="500" y="136.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.30s" fill="freeze"/></rect></clipPath><clipPath id="lc6"><rect x="500" y="158.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.41s" fill="freeze"/></rect></clipPath><clipPath id="lc7"><rect x="500" y="180.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.52s" fill="freeze"/></rect></clipPath><clipPath id="lc8"><rect x="500" y="202.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.63s" fill="freeze"/></rect></clipPath><clipPath id="lc9"><rect x="500" y="224.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.74s" fill="freeze"/></rect></clipPath><clipPath id="lc10"><rect x="500" y="246.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.85s" fill="freeze"/></rect></clipPath><clipPath id="lc11"><rect x="500" y="268.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.96s" fill="freeze"/></rect></clipPath><clipPath id="lc12"><rect x="500" y="290.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.07s" fill="freeze"/></rect></clipPath><clipPath id="lc13"><rect x="500" y="312.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.18s" fill="freeze"/></rect></clipPath><clipPath id="lc14"><rect x="500" y="334.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.29s" fill="freeze"/></rect></clipPath><clipPath id="lc15"><rect x="500" y="356.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.40s" fill="freeze"/></rect></clipPath><clipPath id="lc16"><rect x="500" y="378.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.51s" fill="freeze"/></rect></clipPath><clipPath id="lc17"><rect x="500" y="400.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.62s" fill="freeze"/></rect></clipPath><clipPath id="lc18"><rect x="500" y="422.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.73s" fill="freeze"/></rect></clipPath><clipPath id="lc19"><rect x="500" y="444.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.84s" fill="freeze"/></rect></clipPath><clipPath id="lc20"><rect x="500" y="466.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.95s" fill="freeze"/></rect></clipPath><clipPath id="lc21"><rect x="500" y="488.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.06s" fill="freeze"/></rect></clipPath><clipPath id="lc22"><rect x="500" y="510.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.17s" fill="freeze"/></rect></clipPath>
   <style>
     .ascii  { font-family: 'Courier New', Consolas, monospace; font-size: 7.5px; fill: url(#asciiGrad); font-weight: bold; letter-spacing: -0.1px; }
-    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #00F0FF; font-weight: bold; }
+    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #00A3FF; font-weight: bold; }
     .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #F8FAFC; }
     .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #64748B; }
-    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #C084FC; font-weight: bold; }
-    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #34D399; font-weight: bold; }
+    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #38BDF8; font-weight: bold; }
+    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #FF2E93; font-weight: bold; }
     text, tspan { white-space: pre; }
     
     .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #94A3B8; letter-spacing: 0.5px; }
-    .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #34D399; font-weight: bold; letter-spacing: 1px; }
-    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #00F0FF; font-weight: bold; letter-spacing: 2px; }
-    .cursor-blink { fill: #00F0FF; }
+    .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #00A3FF; font-weight: bold; letter-spacing: 1px; }
+    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #38BDF8; font-weight: bold; letter-spacing: 2px; }
+    .cursor-blink { fill: #FF2E93; }
   </style>
 
   <clipPath id="avatarClip">
@@ -74,9 +74,9 @@
   </clipPath>
   <!-- Laser Shimmer Band between Dual Scanning Lines -->
   <linearGradient id="laserBandGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" stop-color="#C084FC" stop-opacity="0.6"/>
-    <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.8"/>
-    <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.95"/>
+    <stop offset="0%" stop-color="#FF2E93" stop-opacity="0.65"/>
+    <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.75"/>
+    <stop offset="100%" stop-color="#00A3FF" stop-opacity="0.95"/>
   </linearGradient>
 </defs>
 
@@ -89,7 +89,7 @@
   <circle cx="42" cy="20" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="3s" begin="0.3s" repeatCount="indefinite"/></circle>
   <circle cx="60" cy="20" r="5" fill="#10B981"><animate attributeName="opacity" values="1;0.55;1" dur="3s" begin="0.6s" repeatCount="indefinite"/></circle>
   <text x="590" y="25" text-anchor="middle" class="term-label">pavan@devos ~ % ./profile.sh --live</text>
-  <circle cx="1122" cy="20" r="4" fill="#34D399">
+  <circle cx="1122" cy="20" r="4" fill="#00A3FF">
     <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
   </circle>
   <text x="1132" y="24" class="scan-label">ONLINE</text>
@@ -126,28 +126,28 @@
     </rect>
     
     <!-- Line 2: Trailing Cyber Beam (Purple / Violet) -->
-    <line x1="22" y1="20" x2="494" y2="20" stroke="#C084FC" stroke-width="1.8" opacity="0.85" clip-path="url(#avatarClip)">
+    <line x1="22" y1="20" x2="494" y2="20" stroke="#FF2E93" stroke-width="1.8" opacity="0.85" clip-path="url(#avatarClip)">
       <animate attributeName="y1" values="20;472;472;472;20" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="20;472;472;472;20" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.85;0.85;0;0;0.85" keyTimes="0;0.45;0.48;0.95;1" dur="5s" repeatCount="indefinite"/>
     </line>
     
     <!-- Line 1: Primary Leading Laser Beam (Cyan) - Synchronized with avatarRevealClip height -->
-    <line x1="22" y1="34" x2="494" y2="34" stroke="#00F0FF" stroke-width="2.6" opacity="0.95" clip-path="url(#avatarClip)">
+    <line x1="22" y1="34" x2="494" y2="34" stroke="#00A3FF" stroke-width="2.6" opacity="0.95" clip-path="url(#avatarClip)">
       <animate attributeName="y1" values="34;486;486;486;34" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="34;486;486;486;34" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.95;0.95;0;0;0.95" keyTimes="0;0.45;0.48;0.95;1" dur="5s" repeatCount="indefinite"/>
     </line>
     
     <!-- Cyber HUD Targeting Corner Brackets -->
-    <path d="M 30 54 L 30 42 Q 30 40 32 40 L 44 40" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 472 40 L 484 40 Q 486 40 486 42 L 486 54" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 30 466 L 30 478 Q 30 480 32 480 L 44 480" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 472 480 L 484 480 Q 486 480 486 478 L 486 466" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 30 54 L 30 42 Q 30 40 32 40 L 44 40" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 472 40 L 484 40 Q 486 40 486 42 L 486 54" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 30 466 L 30 478 Q 30 480 32 480 L 44 480" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 472 480 L 484 480 Q 486 480 486 478 L 486 466" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
     
     <!-- Cyber Status HUD Pill -->
-    <rect x="34" y="444" width="240" height="28" rx="14" fill="#0B132B" fill-opacity="0.92" stroke="#00F0FF" stroke-width="1.2"/>
-    <circle cx="50" cy="458" r="4.5" fill="#34D399">
+    <rect x="34" y="444" width="240" height="28" rx="14" fill="#0B132B" fill-opacity="0.92" stroke="#00A3FF" stroke-width="1.2"/>
+    <circle cx="50" cy="458" r="4.5" fill="#00A3FF">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
     </circle>
     <text x="62" y="462" font-family="'Courier New', Consolas, monospace" font-size="10.5" fill="#F8FAFC" font-weight="bold" letter-spacing="1px">AI AVATAR // NEURAL STREAM</text>

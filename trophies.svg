@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 135" width="100%" height="135" fill="none">
   <defs>
     <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#050816"/>
+      <stop offset="0%" stop-color="#04060A"/>
+      <stop offset="100%" stop-color="#080D1A"/>
     </linearGradient>
     <linearGradient id="tBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7C3AED"/>
-      <stop offset="50%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#10B981"/>
+      <stop offset="0%" stop-color="#00A3FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF2E93"/>
     </linearGradient>
   </defs>
 
@@ -18,16 +18,16 @@
       <text x="90" y="38" text-anchor="middle" font-size="28">🏆</text>
       <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#FBBF24">Multi-Agent Architect</text>
       <text x="90" y="88" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#94A3B8">LangGraph Master</text>
-      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#38BDF8">GRADE: SSS</text>
+      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#00A3FF">GRADE: SSS</text>
     </g>
 
     <!-- Trophy 2 -->
     <g transform="translate(205, 5)">
       <rect width="180" height="120" rx="12" fill="url(#tBg)" stroke="url(#tBorder)" stroke-width="1.5"/>
       <text x="90" y="38" text-anchor="middle" font-size="28">🧠</text>
-      <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#C084FC">GenAI Specialist</text>
+      <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#FF2E93">GenAI Specialist</text>
       <text x="90" y="88" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#94A3B8">Databricks Certified</text>
-      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#38BDF8">GRADE: GOLD</text>
+      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#00A3FF">GRADE: GOLD</text>
     </g>
 
     <!-- Trophy 3 -->
@@ -36,7 +36,7 @@
       <text x="90" y="38" text-anchor="middle" font-size="28">⚡</text>
       <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#22D3EE">Production RAG</text>
       <text x="90" y="88" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#94A3B8">Azure AI Search</text>
-      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#38BDF8">GRADE: GOLD</text>
+      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#00A3FF">GRADE: GOLD</text>
     </g>
 
     <!-- Trophy 4 -->
@@ -45,7 +45,7 @@
       <text x="90" y="38" text-anchor="middle" font-size="28">⚙️</text>
       <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#10B981">Backend Core</text>
       <text x="90" y="88" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#94A3B8">Spring Boot &amp; Python</text>
-      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#38BDF8">GRADE: PLATINUM</text>
+      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#00A3FF">GRADE: PLATINUM</text>
     </g>
 
     <!-- Trophy 5 -->
@@ -54,7 +54,7 @@
       <text x="90" y="38" text-anchor="middle" font-size="28">📜</text>
       <text x="90" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#F43F5E">500+ Algorithms</text>
       <text x="90" y="88" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#94A3B8">LeetCode &amp; GFG</text>
-      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#38BDF8">GRADE: DIAMOND</text>
+      <text x="90" y="105" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" font-weight="bold" fill="#00A3FF">GRADE: DIAMOND</text>
     </g>
   </g>
 </svg>

@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/Pavan-Dasam/Pavan-Dasam/main/header.svg" width="100%" alt="Pavan Dasam Header Banner" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&width=650&height=50&lines=Enterprise+Generative+AI+%26+Agentic+Workflows;Stateful+Multi-Agent+Systems+via+LangGraph;Production+RAG+Architectures+%26+High-Speed+APIs;Full+Stack+Engineering+%7C+Python+%26+Java+Backends" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00A3FF&center=true&vCenter=true&multiline=false&width=650&height=50&lines=Enterprise+Generative+AI+%26+Agentic+Workflows;Stateful+Multi-Agent+Systems+via+LangGraph;Production+RAG+Architectures+%26+High-Speed+APIs;Full+Stack+Engineering+%7C+Python+%26+Java+Backends" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -13,16 +13,16 @@
   </p>
 
   <p align="center">
-    <a href="https://pavan-dasam.github.io/pavan-portfolio-/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00F0FF&labelColor=1E1B4B" alt="Portfolio" /></a>
-    <a href="https://www.linkedin.com/in/pavan-kumar-dasam-2574893b9/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF&labelColor=1E1B4B" alt="LinkedIn" /></a>
-    <a href="mailto:pavanwork2113@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00F0FF&labelColor=1E1B4B" alt="Email" /></a>
-    <a href="https://github.com/Pavan-Dasam"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=1E1B4B" alt="GitHub" /></a>
+    <a href="https://pavan-dasam.github.io/pavan-portfolio-/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=FF2E93&labelColor=04060A" alt="Portfolio" /></a>
+    <a href="https://www.linkedin.com/in/pavan-kumar-dasam-2574893b9/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF2E93&labelColor=04060A" alt="LinkedIn" /></a>
+    <a href="mailto:pavanwork2113@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=FF2E93&labelColor=04060A" alt="Email" /></a>
+    <a href="https://github.com/Pavan-Dasam"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FF2E93&labelColor=04060A" alt="GitHub" /></a>
   </p>
 
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Pavan-Dasam&label=Profile%20Views&color=7C3AED&style=flat-square" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/Pavan-Dasam?label=Followers&color=6D28D9&style=flat-square&logo=github&logoColor=white" alt="Followers" />
-    <img src="https://img.shields.io/github/stars/Pavan-Dasam?label=Total%20Stars&color=4C1D95&style=flat-square&logo=apachespark&logoColor=white" alt="Stars" />
+    <img src="https://komarev.com/ghpvc/?username=Pavan-Dasam&label=Profile%20Views&color=00A3FF&style=flat-square" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/Pavan-Dasam?label=Followers&color=FF2E93&style=flat-square&logo=github&logoColor=white" alt="Followers" />
+    <img src="https://img.shields.io/github/stars/Pavan-Dasam?label=Total%20Stars&color=00A3FF&style=flat-square&logo=apachespark&logoColor=white" alt="Stars" />
   </p>
 </div>
 

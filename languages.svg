@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none">
   <defs>
     <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B132B"/>
-      <stop offset="100%" stop-color="#050816"/>
+      <stop offset="0%" stop-color="#04060A"/>
+      <stop offset="100%" stop-color="#080D1A"/>
     </linearGradient>
     <linearGradient id="borderGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7C3AED"/>
-      <stop offset="50%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#10B981"/>
+      <stop offset="0%" stop-color="#00A3FF"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#FF2E93"/>
     </linearGradient>
     <linearGradient id="titleGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#A78BFA"/>
+      <stop offset="0%" stop-color="#00A3FF"/>
+      <stop offset="100%" stop-color="#FF2E93"/>
     </linearGradient>
   </defs>
 

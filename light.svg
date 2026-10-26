@@ -9,9 +9,9 @@
     </stop>
   </linearGradient>
   <linearGradient id="borderGradL" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#7C3AED"/>
-    <stop offset="50%" stop-color="#0284C7"/>
-    <stop offset="100%" stop-color="#059669"/>
+    <stop offset="0%" stop-color="#00A3FF"/>
+    <stop offset="50%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#FF2E93"/>
   </linearGradient>
   <radialGradient id="bgGlowL" cx="40%" cy="20%" r="80%">
     <stop offset="0%" stop-color="#F8FAFC"/>
@@ -29,7 +29,7 @@
     .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #0F172A; }
     .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #94A3B8; }
     .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #7C3AED; font-weight: bold; }
-    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #059669; font-weight: bold; }
+    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #FF2E93; font-weight: bold; }
     text, tspan { white-space: pre; }
     
     .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #475569; letter-spacing: 0.5px; }
@@ -111,27 +111,27 @@
     </rect>
     
     <!-- Line 2: Trailing Cyber Beam (Purple / Violet) -->
-    <line x1="22" y1="20" x2="494" y2="20" stroke="#7C3AED" stroke-width="1.8" opacity="0.85" clip-path="url(#avatarClip)">
+    <line x1="22" y1="20" x2="494" y2="20" stroke="#FF2E93" stroke-width="1.8" opacity="0.85" clip-path="url(#avatarClip)">
       <animate attributeName="y1" values="20;472;472;472;20" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="20;472;472;472;20" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.85;0.85;0;0;0.85" keyTimes="0;0.45;0.48;0.95;1" dur="5s" repeatCount="indefinite"/>
     </line>
     
     <!-- Line 1: Primary Leading Laser Beam (Cyan) - Synchronized with avatarRevealClip height -->
-    <line x1="22" y1="34" x2="494" y2="34" stroke="#0284C7" stroke-width="2.6" opacity="0.95" clip-path="url(#avatarClip)">
+    <line x1="22" y1="34" x2="494" y2="34" stroke="#00A3FF" stroke-width="2.6" opacity="0.95" clip-path="url(#avatarClip)">
       <animate attributeName="y1" values="34;486;486;486;34" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="34;486;486;486;34" keyTimes="0;0.45;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.95;0.95;0;0;0.95" keyTimes="0;0.45;0.48;0.95;1" dur="5s" repeatCount="indefinite"/>
     </line>
     
     <!-- Cyber HUD Targeting Corner Brackets -->
-    <path d="M 30 54 L 30 42 Q 30 40 32 40 L 44 40" fill="none" stroke="#0284C7" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 472 40 L 484 40 Q 486 40 486 42 L 486 54" fill="none" stroke="#0284C7" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 30 466 L 30 478 Q 30 480 32 480 L 44 480" fill="none" stroke="#0284C7" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 472 480 L 484 480 Q 486 480 486 478 L 486 466" fill="none" stroke="#0284C7" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 30 54 L 30 42 Q 30 40 32 40 L 44 40" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 472 40 L 484 40 Q 486 40 486 42 L 486 54" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 30 466 L 30 478 Q 30 480 32 480 L 44 480" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 472 480 L 484 480 Q 486 480 486 478 L 486 466" fill="none" stroke="#00A3FF" stroke-width="2.5" stroke-linecap="round"/>
     
     <!-- Cyber Status HUD Pill -->
-    <rect x="34" y="444" width="240" height="28" rx="14" fill="#0F172A" fill-opacity="0.92" stroke="#0284C7" stroke-width="1.2"/>
+    <rect x="34" y="444" width="240" height="28" rx="14" fill="#0F172A" fill-opacity="0.92" stroke="#00A3FF" stroke-width="1.2"/>
     <circle cx="50" cy="458" r="4.5" fill="#34D399">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
     </circle>
